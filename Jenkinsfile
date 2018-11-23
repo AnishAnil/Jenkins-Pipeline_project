@@ -1,5 +1,5 @@
 
-node ('local-build'){
+node (){
 stage 'sanity check'
 sh 'echo sanity check'
 stage 'checkout other repository'
